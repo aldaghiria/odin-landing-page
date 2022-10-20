@@ -1,0 +1,15 @@
+.header, .footer{
+    background-color: #1F2937;
+    color:white;}
+
+.nav-bar li{
+    
+    display: inline-block;
+    float: right;
+    color:white;
+ margin-left: 10px;
+padding-right: 20px;}
+
+.section3{
+    background-color: #E5E7EB;
+}
