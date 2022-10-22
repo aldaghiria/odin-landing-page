@@ -1,15 +1,141 @@
-.header, .footer{
-    background-color: #1F2937;
-    color:white;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.nav-bar li{
-    
-    display: inline-block;
-    float: right;
-    color:white;
- margin-left: 10px;
-padding-right: 20px;}
+
+* {
+
+    padding: 0;
+    margin: 0;
+    font-family: roboto, arial, helvetica, sans-serif}
+
+.header{
+    background-color: #1F2937;
+}
+
+a{
+    text-decoration: none;}
+
+nav{
+    padding: 5px 20px;
+    display: flex;
+    text-align: center;}
+
+.logo{
+    flex:1;} 
+
+.logo a{
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-top:10px;
+color: #f9faf8}
+
+.menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-right: 200px;
+color: #f9faf8}
+
+.menu li{
+
+    margin: 15px 20px;}
+
+    .section1{
+        margin: 120px;
+        background-color: #1f2937;
+        margin: 0;
+        padding:0;
+        padding-top: 100px;
+        padding-left: 120px;
+        padding-bottom: 100px;
+        color: #f9faf8
+        
+    }
+
+    .section1 h1{
+        width: 500px;
+        font-size: 48px;
+    }
+    .section1 p{
+        width: 450px;
+        font-size: 18px;
+    }
+
+    .section1 input, .section4 input{
+        margin-top: 10px;
+        background-color: #3882f6;
+        color: #fff;
+        padding: 5px 20px 5px 20px;
+        border-radius: 10px;
+        border: 1px solid #3882f6
+        
+
+    }
+
+    .section2{
+
+        margin: 100px;
+        text-align: center;
+       
+    }
+
+    .boxes{
+
+        display: flex;
+justify-content: center;
+padding-top: 20px;
+
+}
+.one, .two, .three, .four{
+
+border: solid 1px #3882f6;
+margin: 20px;
+padding: 50px;
+text-align: center;
+border-radius: 10px;
+}
 
 .section3{
-    background-color: #E5E7EB;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+
+.section3 .quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.section3 .author{
+    float:right;
+}
+
+.call{
+    border-radius: 10px;
+        border: 1px solid #3882f6;
+        padding: 50px;
+        margin: 100px;
+        display: flex;
+        background-color: #3882f6;
+        color: #fff;
+}
+
+.call h2, .call p{
+    padding-left: 50px;
+}
+.call input{
+    
+    border: 1px solid #fff;
+
+}
+
+.call .text{
+    width: 100%;
+}
+
+.footer{
+    color: #f9faf8;
+    background-color: #1F2937;
+    padding: 50px;
+    text-align:center
 }
