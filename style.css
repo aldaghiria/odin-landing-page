@@ -9,6 +9,7 @@
 
 .header{
     background-color: #1F2937;
+    padding-top: 20px;
 }
 
 a{
@@ -48,9 +49,13 @@ color: #f9faf8}
         padding-top: 100px;
         padding-left: 120px;
         padding-bottom: 100px;
-        color: #f9faf8
-        
+        color: #f9faf8;
+        display: flex;
     }
+
+    .hero-image {
+        width: 400px;
+      }
 
     .section1 h1{
         width: 500px;
@@ -67,7 +72,8 @@ color: #f9faf8}
         color: #fff;
         padding: 5px 20px 5px 20px;
         border-radius: 10px;
-        border: 1px solid #3882f6
+        border: 1px solid #3882f6;
+        width:120px;
         
 
     }
@@ -86,14 +92,28 @@ justify-content: center;
 padding-top: 20px;
 
 }
-.one, .two, .three, .four{
+.box{
 
-border: solid 1px #3882f6;
-margin: 20px;
-padding: 50px;
-text-align: center;
-border-radius: 10px;
+    width: 100%;
+    height: auto;
+    text-align:center;
+    display:block;
+    background-color: transparent;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    margin-bottom: 1px;
 }
+
+
+.box img{
+    border: 1px solid #1F2937;
+}
+
+.box p{
+    margin-top: 10px;
+}
+
+
 
 .section3{
     background-color: #e5e7eb;
